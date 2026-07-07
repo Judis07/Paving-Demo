@@ -293,6 +293,8 @@
   color: var(--text-muted);
   opacity: 0.6;
   transition: var(--transition);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .marquee-item:hover {
